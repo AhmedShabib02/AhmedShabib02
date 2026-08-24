@@ -4,6 +4,7 @@
 
 <div align="center">
 
+<a href="https://portfolio-ahmed-shabib.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-3FB950?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 <a href="https://linkedin.com/in/ahmed-shabib"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:ahmedshabib829@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://leetcode.com/AhmedShabib/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
@@ -25,7 +26,7 @@ I lead a team of 5 and spend most of my time on **architecture decisions that ag
 ## 🧱 What I've built
 
 <table>
-<tr><td width="33%" valign="top">
+<tr><td width="50%" valign="top">
 
 ### Seller Center
 `OLX`
@@ -37,7 +38,7 @@ Product management platform for online sellers — inventory, listings, customer
 `↑ 30% performance` via caching, pagination, and distributed API call optimization
 `↓ 25% delivery time` via a modular component system
 
-</td><td width="33%" valign="top">
+</td><td width="50%" valign="top">
 
 ### Jarvis CRM
 `Internal`
@@ -46,7 +47,8 @@ Sales CRM with real-time dashboards and data visualization driving day-to-day de
 
 Built task-tracking modules with advanced state management; proposed and shipped architectural refinements for scalability.
 
-</td><td width="33%" valign="top">
+</td></tr>
+<tr><td width="50%" valign="top">
 
 ### Dubizzle CRM
 `Multi-tenant`
@@ -54,6 +56,19 @@ Built task-tracking modules with advanced state management; proposed and shipped
 In-house multi-tenant ReactJS application.
 
 Migrated the codebase to **Redux Toolkit + RTK Query**, streamlining data fetching. Automated CI/CD pipelines, cutting deployment errors and cycle time.
+
+</td><td width="50%" valign="top">
+
+### PropOne Consumer App
+`React Native · Multi-tenant`
+
+Mobile app for a property booking & facility management platform — **one codebase, three shells** that swap at runtime based on who logs in:
+
+- **Client-FMS** — residents schedule visitor entry, file service tickets, track bills against their unit, and delegate scoped access to family or property managers
+- **Client-RMS** — buyers track installment ledgers and payment history per booking
+- **Developer** — portfolio dashboard with received/billed/overdue financials and aging charts across projects
+
+The runtime shell-switching architecture is the interesting part: role-driven navigators over shared module code, rather than three separate apps to maintain.
 
 </td></tr>
 </table>
@@ -105,9 +120,9 @@ Migrated the codebase to **Redux Toolkit + RTK Query**, streamlining data fetchi
 
 ## 🎲 Side projects
 
+- **[Portfolio](https://portfolio-ahmed-shabib.vercel.app/)** `Next.js · Vercel` — my work, live · [source](https://github.com/AhmedShabib02/portfolio)
 - **Chess Engine** `Python` — MiniMax with alpha-beta pruning
 - **Linux Shell** `C` — a shell sitting between user and kernel
-- **[claude-code-sub-agents](https://github.com/AhmedShabib02/claude-code-sub-agents)** — specialized AI subagents for full-stack workflows
 
 ---
 
@@ -118,5 +133,7 @@ Migrated the codebase to **Redux Toolkit + RTK Query**, streamlining data fetchi
 <br>
 
 **Open to senior frontend and full-stack roles.**
+
+See the full picture → **[portfolio-ahmed-shabib.vercel.app](https://portfolio-ahmed-shabib.vercel.app/)**
 
 </div>
