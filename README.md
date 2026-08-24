@@ -26,49 +26,52 @@ I lead a team of 5 and spend most of my time on **architecture decisions that ag
 ## 🧱 What I've built
 
 <table>
+<tr><td width="100%" valign="top">
+
+### 🛒 Seller Center · <sub>`OLX`</sub>
+
+Product management platform for online sellers — inventory, listings, and customers at thousands-of-sellers scale.
+
+![Led team of 5](https://img.shields.io/badge/led-5_engineers-2F81F7?style=flat-square)
+![Performance](https://img.shields.io/badge/performance-30%25_faster-3FB950?style=flat-square)
+![Delivery time](https://img.shields.io/badge/feature_delivery-25%25_faster-3FB950?style=flat-square)
+
+Designed the frontend architecture in **React + Redux Toolkit + TypeScript**. The 30% came from caching, pagination, and cutting distributed API calls; the 25% from a modular component system teams actually reused.
+
+</td></tr>
+<tr><td width="100%" valign="top">
+
+### 📱 PropOne Consumer App · <sub>`React Native`</sub>
+
+Mobile app for a property booking & facility management platform. **One codebase, three shells** that swap at runtime based on who logs in:
+
+&nbsp;&nbsp;![FMS](https://img.shields.io/badge/Client-FMS-8957E5?style=flat-square) &nbsp;Residents — visitor entry, service tickets, unit bills, delegated access<br>
+&nbsp;&nbsp;![RMS](https://img.shields.io/badge/Client-RMS-1F6FEB?style=flat-square) &nbsp;Buyers — installment ledgers and payment history per booking<br>
+&nbsp;&nbsp;![DEV](https://img.shields.io/badge/Developer-Portal-DB6D28?style=flat-square) &nbsp;Portfolio dashboard — received/billed/overdue financials, aging charts
+
+Role-driven navigators over shared module code — three products to maintain, one app to ship.
+
+</td></tr>
+</table>
+
+<table>
 <tr><td width="50%" valign="top">
 
-### Seller Center
-`OLX`
-
-Product management platform for online sellers — inventory, listings, customers, at thousands-of-sellers scale.
-
-**Led a team of 5.** Designed the frontend architecture in React + Redux Toolkit + TypeScript.
-
-`↑ 30% performance` via caching, pagination, and distributed API call optimization
-`↓ 25% delivery time` via a modular component system
-
-</td><td width="50%" valign="top">
-
-### Jarvis CRM
-`Internal`
+### 📊 Jarvis CRM
+<sub>`Internal · React`</sub>
 
 Sales CRM with real-time dashboards and data visualization driving day-to-day decisions.
 
 Built task-tracking modules with advanced state management; proposed and shipped architectural refinements for scalability.
 
-</td></tr>
-<tr><td width="50%" valign="top">
-
-### Dubizzle CRM
-`Multi-tenant`
-
-In-house multi-tenant ReactJS application.
-
-Migrated the codebase to **Redux Toolkit + RTK Query**, streamlining data fetching. Automated CI/CD pipelines, cutting deployment errors and cycle time.
-
 </td><td width="50%" valign="top">
 
-### PropOne Consumer App
-`React Native · Multi-tenant`
+### 🏢 Dubizzle CRM
+<sub>`Multi-tenant · ReactJS`</sub>
 
-Mobile app for a property booking & facility management platform — **one codebase, three shells** that swap at runtime based on who logs in:
+In-house multi-tenant application serving multiple business units.
 
-- **Client-FMS** — residents schedule visitor entry, file service tickets, track bills against their unit, and delegate scoped access to family or property managers
-- **Client-RMS** — buyers track installment ledgers and payment history per booking
-- **Developer** — portfolio dashboard with received/billed/overdue financials and aging charts across projects
-
-The runtime shell-switching architecture is the interesting part: role-driven navigators over shared module code, rather than three separate apps to maintain.
+Migrated to **Redux Toolkit + RTK Query**, streamlining data fetching. Automated CI/CD pipelines, cutting deployment errors and cycle time.
 
 </td></tr>
 </table>
