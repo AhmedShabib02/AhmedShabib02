@@ -1,40 +1,62 @@
 <div align="center">
+  <img src="./banner.svg" alt="Ahmed Shabib — Senior Software Engineer" width="100%" />
+</div>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Senior+Software+Engineer+II;Booking+systems+at+scale;Payments%2C+platform%2C+infrastructure" alt="Ahmed Shabib" />
+<div align="center">
 
-# Ahmed Shabib
-
-**Building the systems behind property & automotive marketplaces**
-`Dubizzle Labs` · `Lahore, PK` · `UTC+5`
-
-<a href="https://linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://linkedin.com/in/ahmed-shabib"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:ahmedshabib829@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://leetcode.com/AhmedShabib/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
-<a href="mailto:YOUR@EMAIL.COM"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
 </div>
 
 ---
 
-## 🏗️ What I actually build
+## 👋 About
 
-> **4,200+ contributions last year — most of them in private repos.**
-> This profile is the trailer, not the film. Ask me for the director's cut.
+Frontend-leaning full-stack engineer, 4 years at **Dubizzle Labs** in Lahore. I build large-scale marketplace and CRM products — the kind with thousands of concurrent users, data-heavy tables, and a long maintenance tail.
 
-```
-◆ Booking & payments      Installment plans, reconciliation, and recovery
-                          workflows for multi-tenant property management
+I lead a team of 5 and spend most of my time on **architecture decisions that age well**: state management that doesn't collapse at scale, component systems teams actually reuse, and render paths that stay fast when the data doesn't cooperate.
 
-◆ Internal platform       Admin consoles and ops dashboards used daily by
-                          sales, finance, and recovery teams
+> **4,200+ contributions last year — most in private repos.** This profile is the trailer, not the film.
 
-◆ Delivery & infra        GitOps pipelines, environment management,
-                          the boring stuff that makes shipping non-dramatic
+---
 
-◆ Code review             ~16% of my activity. I care about the codebase
-                          my team inherits, not just the code I ship
-```
+## 🧱 What I've built
 
-<!-- TODO: rewrite these four in your own words. Each line = a system, not a technology. -->
+<table>
+<tr><td width="33%" valign="top">
+
+### Seller Center
+`OLX`
+
+Product management platform for online sellers — inventory, listings, customers, at thousands-of-sellers scale.
+
+**Led a team of 5.** Designed the frontend architecture in React + Redux Toolkit + TypeScript.
+
+`↑ 30% performance` via caching, pagination, and distributed API call optimization
+`↓ 25% delivery time` via a modular component system
+
+</td><td width="33%" valign="top">
+
+### Jarvis CRM
+`Internal`
+
+Sales CRM with real-time dashboards and data visualization driving day-to-day decisions.
+
+Built task-tracking modules with advanced state management; proposed and shipped architectural refinements for scalability.
+
+</td><td width="33%" valign="top">
+
+### Dubizzle CRM
+`Multi-tenant`
+
+In-house multi-tenant ReactJS application.
+
+Migrated the codebase to **Redux Toolkit + RTK Query**, streamlining data fetching. Automated CI/CD pipelines, cutting deployment errors and cycle time.
+
+</td></tr>
+</table>
 
 ---
 
@@ -42,56 +64,59 @@
 
 <div align="center">
 
+**Core**
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+
+**APIs & Data**
+
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+**Cloud, DevOps & Testing**
+
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+![Cypress](https://img.shields.io/badge/Cypress-69D3A7?style=flat-square&logo=cypress&logoColor=black)
 
 </div>
 
-<!-- TODO: delete anything here you wouldn't want to be interviewed on. -->
+---
+
+## 🧊 Contributions, in three dimensions
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="90%" />
+</div>
 
 ---
 
-## 📦 Selected work
+## 🎲 Side projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [portfolio](https://github.com/AhmedShabib02/portfolio)
-`JavaScript`
-
-<!-- TODO: one line — what it is, what's interesting about how it's built -->
-
-</td>
-<td width="50%" valign="top">
-
-### [claude-code-sub-agents](https://github.com/AhmedShabib02/claude-code-sub-agents)
-`AI tooling`
-
-Specialized AI subagents for Claude Code, tuned for full-stack workflows.
-
-</td>
-</tr>
-</table>
+- **Chess Engine** `Python` — MiniMax with alpha-beta pruning
+- **Linux Shell** `C` — a shell sitting between user and kernel
+- **[claude-code-sub-agents](https://github.com/AhmedShabib02/claude-code-sub-agents)** — specialized AI subagents for full-stack workflows
 
 ---
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=AhmedShabib02&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&icon_color=2F81F7&include_all_commits=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AhmedShabib02&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&langs_count=6" />
+🎓 **BS Computer Science, FAST NUCES** · Islamabad, 2018–2022
 
-<br><br>
+<br>
 
-**Open to conversations about backend & platform roles.**
+**Open to senior frontend and full-stack roles.**
 
 </div>
