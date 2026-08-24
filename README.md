@@ -140,8 +140,6 @@ Designed the frontend architecture in **React + Redux Toolkit + TypeScript**. Th
 
 <br>
 
-**Open to senior frontend and full-stack roles.**
-
 See the full picture → **[portfolio-ahmed-shabib.vercel.app](https://portfolio-ahmed-shabib.vercel.app/)**
 
 </div>
